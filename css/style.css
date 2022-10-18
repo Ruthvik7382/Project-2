@@ -1,12 +1,8 @@
-/* stylelint-enable */
 * {
   box-sizing: border-box;
 }
-ol, ul{
-  list-style: none;
-  
-}
 a{
+    text-decoration: none;
     color: inherit;
 }
 section a {
@@ -15,37 +11,20 @@ section a {
 section p {
     float: none!important;
 }
-section h1 {
-   text-align: center;
-    background-color: #473155;
-    color: #000000;
+h1{
+	background-color: #156e94;
 }
-section h2 {
-    background-color: #ab4b86;
-    font-size: 2em;
-    color: #000000;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-}
-section h3 {
-    background-color: #dfb5d2;
-    color: #000000;
-}
-/* House styles below */
-@font-face {
-    font-family: "American Typewriter";
-}
-*{
-    box-sizing: border-box;
+h1, h2, h3{
+    text-underline-offset: 0.09em;
+    text-decoration: underline;
+    text-align: center;
+    position: relative;
 }
 body {
+    background-image: url("../Images/background.jpg");
     font-family: 'Roboto', sans-serif;
-    background-color: #d2c2dc;
+    background-color: floralwhite;
     font-size: 1em;
-    font-weight: 500;
-    /* font-size: 1.5rem; */
 }
 
 header{
@@ -71,19 +50,9 @@ header nav ul li:nth-child(2){
 header nav ul li:nth-child(3){
   float: right;
 }
-h1, h2, h3, h4, h5{
-  font-weight: bold;
-}
-h1{
-  font-size: 3em;
-  line-height:2.5em;
-}
-h3{
-  font-size: 1.266em;
-  line-height:1.3em;
-}
-h4{
-  font-size: 1.125em;
+ol, ul{
+	text-align: center;
+	position: relative;  
 }
 li{
   padding-left: 10px;
@@ -101,8 +70,12 @@ p {
     margin-inline-end: 0px;
 }
 nav{
-  height: 30px;
-  margin-top: 10px;
+  background-color:#bbc454;
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 0 0 1.5em 1.5em;
 }
 section{
   padding: 10px 0;
@@ -114,6 +87,6 @@ main{
   padding: 0 10px;
 }
 footer{
-  display: block;
-  color: #b25092;
+  clear: none;
+  background-color: #f2f5f5;
 }
