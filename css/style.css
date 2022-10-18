@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 a{
     text-decoration: none;
@@ -28,7 +28,7 @@ body {
 }
 
 header{
-  width: 100%;
+    width: 100%;
 }
 header nav ul{
     text-align: center;
@@ -37,33 +37,27 @@ header nav ul{
     width: max-content;
 }
 header nav ul li{
-  margin-bottom: 5px;
-  color: #b25092;
-  width: max-content;
+    margin-bottom: 5px;
+    color: #b25092;
+    width: max-content;
 }
 header nav ul li a{
-  display: block;
-  padding: 1.00em 0.9em;
-  color: #0b0d08;
-  text-decoration: underline;
+    display: block;
+    padding: 1.00em 0.9em;
+    color: #0b0d08;
+    text-decoration: underline;
 }
 p,li{
 	text-align: center;
 	position: relative;  
     
 }
-
-ul,ol{
-	/*text-align: center;
-    position: relative;  */
-    
-     display: table;
-  margin: 0 auto;
+ul,ol{   
+    display: table;
+    margin: 0 auto;
 }
-
-
 p ~ p{
-  padding-top: 5px;
+    padding-top: 5px;
 }
 p {
     display: block;
@@ -74,12 +68,12 @@ p {
     margin-inline-end: 0px;
 }
 nav{
-  background-color:#bbc454;
-  width: 100%;
-  overflow: hidden;
-  margin: 0 auto;
-  text-align: center;
-  border-radius: 0 0 1.5em 1.5em;
+    background-color:#bbc454;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 0 0 1.5em 1.5em;
 }
 img{
     height: 350px;
@@ -96,15 +90,15 @@ iframe{
     box-sizing: border-box;
 }
 section{
-  padding: 10px 0;
+    padding: 10px 0;
 }
 section section{
-  padding: 0 10px;
+    padding: 0 10px;
 }
 main{
-  padding: 0 10px;
+    padding: 0 10px;
 }
 footer{
-  clear: none;
-  background-color: #f2f5f5;
+    clear: none;
+    background-color: #f2f5f5;
 }
