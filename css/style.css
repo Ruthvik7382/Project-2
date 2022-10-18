@@ -47,10 +47,21 @@ header nav ul li a{
   color: #0b0d08;
   text-decoration: underline;
 }
-p,ol{
+p,li{
 	text-align: center;
 	position: relative;  
+    
 }
+
+ul,ol{
+	/*text-align: center;
+    position: relative;  */
+    
+     display: table;
+  margin: 0 auto;
+}
+
+
 p ~ p{
   padding-top: 5px;
 }
