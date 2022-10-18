@@ -50,13 +50,9 @@ header nav ul li:nth-child(2){
 header nav ul li:nth-child(3){
   float: right;
 }
-ol, ul{
+p,ol, ul,li{
 	text-align: center;
 	position: relative;  
-}
-li{
-  padding-left: 10px;
-  font-weight: bold;
 }
 p ~ p{
   padding-top: 5px;
@@ -76,6 +72,13 @@ nav{
   margin: 0 auto;
   text-align: center;
   border-radius: 0 0 1.5em 1.5em;
+}
+img{
+    height: 350px;
+    width: 350px;
+	margin: 2.5em auto;
+	display: block;
+    box-sizing: border-box;
 }
 section{
   padding: 10px 0;
