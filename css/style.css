@@ -49,8 +49,7 @@ header nav ul li a{
 }
 p,li{
 	text-align: center;
-	position: relative;  
-    
+	position: relative;      
 }
 ul,ol{   
     display: table;
