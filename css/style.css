@@ -19,13 +19,13 @@ header nav ul{
     float: left;
     display: block;
     padding: .5cm;
-    text-decoration-style: none;
+    text-decoration-style: none!important;
 }
 header nav ul li{
     float: left;
     display: block;
     padding: .5cm;
-    text-decoration-style: none;
+    text-decoration-style: none!important;
 }
 header nav ul li a{
     display: block;
@@ -34,7 +34,7 @@ header nav ul li a{
     text-decoration: underline;
 }
 h1{
-	background-color: none;
+	background-color: none!important;
 }
 h1, h2, h3{
     text-underline-offset: 0.09em;
