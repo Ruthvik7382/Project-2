@@ -61,6 +61,16 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+.first_page{
+  background-image: url("../Images/resume_bi.jpeg");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.second_page{
+  background-image: url("../Images/cricket_bi.jpeg");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
 img{
     height: 350px;
     width: 500px;
