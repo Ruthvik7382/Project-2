@@ -15,6 +15,9 @@ nav{
 }
 header{
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 header nav ul{
     float: center;
@@ -23,8 +26,7 @@ header nav ul{
     text-decoration: none!important;
 }
 header nav ul li{
-    float: left;
-    display: block;
+    display: inline-block;
     padding: .5cm;
     text-decoration: none!important;
 }
@@ -44,10 +46,12 @@ h1, h2, h3{
     position: relative;
 }
 p,li{
+    list-style: none;
 	text-align: center;
 	position: relative;      
 }
-ul,ol{   
+ul,ol{  
+    list-style: none;
     display: table;
     margin: 0 auto;
 }
