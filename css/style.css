@@ -1,5 +1,5 @@
 body {
-    background-image: url("../Images/background.jpg");
+    background-image: url("../images/background.jpg");
     font-family: 'Rubik', sans-serif;
     background-color: floralwhite;
     font-size: 1em;
@@ -62,12 +62,12 @@ p {
     margin-inline-end: 0px;
 }
 .first_page{
-    background-image: url("../Images/resume_bi.jpeg");
+    background-image: url("../images/resume_bi.jpeg");
     background-repeat: no-repeat;
     background-size:cover;
 }
 .second_page{
-    background-image: url("../Images/cricket_bi.jpeg");
+    background-image: url("../images/cricket_bi.jpeg");
     background-repeat: no-repeat;
     background-size:cover;
 }
