@@ -40,7 +40,7 @@ h1{
 	background-color: transparent;
 }
 h1, h2, h3{
-    text-underline-offset: 0.09em;
+    text-underline-offset: none;
     text-decoration: none!important;
     text-align: center;
     position: relative;
@@ -100,6 +100,7 @@ main{
     padding: 0 10px;
 }
 footer{
+    list-style: none;
     clear: none;
     background-color: #f2f5f5;
 }
