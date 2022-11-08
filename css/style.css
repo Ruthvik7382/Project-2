@@ -31,14 +31,14 @@ header nav ul li a{
     display: block;
     padding: 1.00em 0.9em;
     color: #0b0d08;
-    text-decoration: underline;
+    text-decoration: none!important;
 }
 h1{
 	background-color: transparent;
 }
 h1, h2, h3{
     text-underline-offset: 0.09em;
-    text-decoration: underline;
+    text-decoration: none!important;
     text-align: center;
     position: relative;
 }
