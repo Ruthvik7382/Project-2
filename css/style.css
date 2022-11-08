@@ -16,13 +16,13 @@ header{
     width: 100%;
 }
 header nav ul{
-    float: center;
+    float: left;
     display: block;
     padding: .5cm;
     text-decoration: none!important;
 }
 header nav ul li{
-    float: center;
+    float: left;
     display: block;
     padding: .5cm;
     text-decoration: none!important;
