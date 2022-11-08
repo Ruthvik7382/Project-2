@@ -22,7 +22,7 @@ header nav ul{
     text-decoration: none!important;
 }
 header nav ul li{
-    float: left;
+    float: center;
     display: block;
     padding: .5cm;
     text-decoration: none!important;
