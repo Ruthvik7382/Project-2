@@ -7,10 +7,10 @@ body {
 nav{
     background-color: #756dff;
     float: center
-    width: 100%;
     overflow: hidden;
     margin: 0 auto;
     text-align: center;
+    width: 100%;
     border-radius: 0 0 1.5em 1.5em;
 }
 header{
@@ -20,7 +20,6 @@ header{
     justify-content: space-between;
 }
 header nav ul{
-    float: center;
     display: block;
     padding: .5cm;
     text-decoration: none!important;
@@ -40,7 +39,6 @@ h1{
 	background-color: transparent;
 }
 h1, h2, h3{
-    text-underline-offset: none;
     text-decoration: none!important;
     text-align: center;
     position: relative;
