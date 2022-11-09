@@ -60,6 +60,7 @@ p ~ p{
 }
 p {
     display: block;
+    list-style: none;
     margin-block-start: 1em;
     font-weight: bold;
     margin-block-end: 1em;
@@ -100,7 +101,6 @@ main{
     padding: 0 10px;
 }
 footer{
-    list-style: none;
     clear: none;
     background-color: #f2f5f5;
 }
